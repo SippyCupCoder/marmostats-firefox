@@ -1,10 +1,13 @@
 {
     "name": "MarmoStats",
     "short_name": "MarmoStats",
-    "description": "A Chrome Extension for visualizing Marmoset test results",
+    "description": "A Firefox Extension for visualizing Marmoset test results",
     "version": "1.2.1",
     "manifest_version": 3,
     "permissions": ["storage"],
+    "browser_specific_settings": {
+	    "gecko": { "id": "MarmoStats@example.com" }
+    },
     "content_scripts": [
       {
         "matches": ["https://marmoset.student.cs.uwaterloo.ca/view/instructor/*"],
