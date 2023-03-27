@@ -715,7 +715,6 @@ function display_stats(chart_enabled) {
                                     <p id="marmostats-progress-perc"></p> \
                                 </div> \
                                 <div id="marmostats-chart"></div>');
-
         display_overview();
     }
 
